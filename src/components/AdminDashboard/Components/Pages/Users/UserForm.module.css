@@ -1,0 +1,150 @@
+.container {
+  display: flex;
+  padding: 20px;
+  justify-content: left;
+  align-items: stretch;
+  height: 80vh;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.formContainer {
+  width: 750px;
+  padding: 20px;
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  top: 60px;
+  margin-left: 10%;
+  
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 150%;
+  font-family: serif;
+  text-align: left;
+  margin-left: 0px;
+}
+
+.labelContainer {
+  width: 50%;
+  margin-bottom: 5px;
+  margin-left: 10%;
+  font-family: serif;
+ 
+}
+
+
+.formHeading {
+  font-size: 24px;
+  font-family: serif;
+  font-weight: bold;
+  margin-left: 230px;
+}
+
+.submitBtn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  align-self: center;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+
+.checkbox {
+  margin-left: 120px;
+  align-self: flex-start;
+  width: 15px;
+  height: 15px;
+  margin-top: -17px;
+}
+
+
+
+
+.modalContainer {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Adjust the width as needed */ 
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure the modal is on top of other content */
+  
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+.input-error{
+  border: 1px solid red;
+}

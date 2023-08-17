@@ -1,0 +1,146 @@
+/* userDetails.css */
+.table-container{
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.user-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-details-table th,
+  .user-details-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    font-family: serif;
+  }
+  
+  .user-details-table th {
+    background-color: #86adab;
+    font-weight: bold;
+    font-family: serif;
+  }
+  
+  .user-details-table button {
+    background-color: #86adab;
+    color: #090909;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+
+  /* UserDetails.css */
+
+
+/* UserDetails.css */
+.dropdown-td {
+  width: 100px; /* Set the width as needed */
+  padding: 8px;
+  border: 1px solid #171717;
+  background-color: #d5dcdc;;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-td .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  left:-50%;
+}
+
+.dropdown-td:hover .dropdown-content {
+  display: block;
+  
+}
+
+.dropdown-td .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-td .dropdown-content a:hover {
+  background-color: #86adab;
+}
+
+
+
+
+.modalContainer {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Adjust the width as needed */ 
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure the modal is on top of other content */
+  
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
